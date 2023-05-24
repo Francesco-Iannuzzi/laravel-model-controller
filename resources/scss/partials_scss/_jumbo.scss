@@ -1,11 +1,17 @@
 @use '../partials_scss/variables' as *;
 
 .jumbo {
-    background-image: url('');
+    background-image: url('https://img.freepik.com/premium-vector/movie-cinema-vector-pattern-doodle-hand-drawn-sketch-style-movie-seamless-pattern-cinema-elements_253081-1051.jpg?w=2000');
     background-size: cover;
     background-repeat: no-repeat;
 
     .jumbo_container {
+
+        div {
+            background-color: $light;
+            width: 50%;
+            padding: 1rem 3rem;
+        }
 
         h1 {
             color: $secondary;
@@ -18,6 +24,11 @@
         .btn {
             background-color: $primary;
             color: $light;
+
+            &:hover {
+                color: $secondary;
+                transition: 1s;
+            }
         }
     }
 }

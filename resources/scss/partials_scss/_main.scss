@@ -2,6 +2,61 @@
 
 
 #app_main {
-    background-image: url('https://img.freepik.com/free-vector/abstract-background-with-monochrome-low-poly-design_1048-14453.jpg');
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMB4QgfOzuBSWEsIPljZcrnFF0fE0utdj0xzypBo5Wz96PGPWrtU0funK0U7wmAWM4iiSuDVQJWeH-vzRJfsEy2pnFWLNhate4wpAoQoy4YD0yzQ0Mm1uR3H_2WnYWYKev5VIm31SLZ4vucAwUmYAvWv1JRb0lFJ8Fip7p4L92tRuqdZidSggpw1NbRA/s2436/TEXTURE.png');
     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#app_home {
+    h1 {
+        color: $primary;
+    }
+
+    h3 {
+        color: $secondary;
+    }
+
+    button {
+        background-color: $primary;
+
+        a {
+
+            text-decoration: none;
+            color: $light;
+
+            &:hover {
+                color: $secondary;
+                transition: 1s;
+            }
+        }
+    }
+}
+
+#app_movies {
+    h1 {
+        color: $primary;
+    }
+
+    .card {
+        h3 {
+            color: $secondary;
+        }
+
+        li:first-child {
+            h6 {
+                color: $primary;
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+#app_about {
+    h1 {
+        color: $primary;
+    }
+
+    p {
+        color: $light;
+    }
 }

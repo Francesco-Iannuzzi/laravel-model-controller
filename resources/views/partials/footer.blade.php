@@ -49,12 +49,17 @@
                     <ul class="list-unstyled">
                         <li>
                             <a href="#">
-                                Cookies
+                                Client service
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                Privacy
+                                Help me
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Save me
                             </a>
                         </li>
                     </ul>
