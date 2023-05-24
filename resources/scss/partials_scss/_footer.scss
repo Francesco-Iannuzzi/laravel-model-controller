@@ -1,0 +1,22 @@
+@use '../partials_scss/variables' as *;
+
+
+#app_footer {
+    background-color: $dark;
+
+    .col {
+
+        p {
+            color: $light;
+        }
+
+        h3 {
+            color: $primary;
+        }
+
+        a {
+            color: $secondary;
+            text-decoration: none;
+        }
+    }
+}

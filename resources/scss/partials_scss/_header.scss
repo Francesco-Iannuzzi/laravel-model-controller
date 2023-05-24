@@ -1,0 +1,23 @@
+@use '../partials_scss/variables' as *;
+
+
+#app_header {
+    background-color: $dark;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+
+
+    .nav {
+
+        .current_page {
+            background-color: $primary;
+            color: $light;
+        }
+
+        a {
+            color: $secondary;
+        }
+    }
+}

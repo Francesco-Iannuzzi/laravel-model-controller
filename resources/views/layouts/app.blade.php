@@ -18,8 +18,9 @@
 <body>
 
     @include('partials.header')
+    @include('partials.jumbo')
 
-    <main class="bg-light py-5">
+    <main id="app_main" class="py-5">
         @yield('content')
     </main>
 

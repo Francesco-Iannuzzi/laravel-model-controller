@@ -1,0 +1,23 @@
+@use '../partials_scss/variables' as *;
+
+.jumbo {
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .jumbo_container {
+
+        h1 {
+            color: $secondary;
+        }
+
+        p {
+            color: black;
+        }
+
+        .btn {
+            background-color: $primary;
+            color: $light;
+        }
+    }
+}
